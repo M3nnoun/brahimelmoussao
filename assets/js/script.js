@@ -86,7 +86,7 @@ function app() {
         var n = $(".inp").val();
         $(".inp").val(++n)
     }
-    const c = '<div class="chat-content-item manager "><div class="img-doc"><img src="assets/img/header-ava-eac-arb.png" alt=""> </div><div class="chat-content-desc"><span class="doc-name">ماريا جونزاليس</span><div class="chat-content-desc-item manager ch1"><p class="text text_img" id="mass' + mass_id + '"></p></div><p class="message-time" id="time">' + t + '</p></div></div>';
+    const c = '<div class="chat-content-item manager "><div class="img-doc"><img src="assets/img/header-ava-eac-arb.png" alt=""> </div><div class="chat-content-desc"><span class="doc-name">سارة بناني</span><div class="chat-content-desc-item manager ch1"><p class="text text_img" id="mass' + mass_id + '"></p></div><p class="message-time" id="time">' + t + '</p></div></div>';
     $(".chat-content-list").append(c), "0" == document.getElementById("res").value ? $("#scroll_id").addClass("aba") : $("#scroll_id").removeClass("aba")
 }
 
@@ -282,7 +282,7 @@ function choise7() {
 setTimeout(() => {
     var e = new Date,
         s = ("0" + e.getMinutes()).slice(-2);
-    const t = '<div class="chat-content-item manager "><div class="img-doc"><img src="assets/img/header-ava-eac-arb.png" alt=""> </div><div class="chat-content-desc"><span class="doc-name">ماريا جونزاليس</span><div class="chat-content-desc-item manager ch1"><p class="text" id="mass' + mass_id + '"></p></div><p class="message-time" id="time">' + (("0" + e.getHours()).slice(-2) + ":" + s) + '</p></div></div>';
+    const t = '<div class="chat-content-item manager "><div class="img-doc"><img src="assets/img/header-ava-eac-arb.png" alt=""> </div><div class="chat-content-desc"><span class="doc-name">سارة بناني</span><div class="chat-content-desc-item manager ch1"><p class="text" id="mass' + mass_id + '"></p></div><p class="message-time" id="time">' + (("0" + e.getHours()).slice(-2) + ":" + s) + '</p></div></div>';
     $(".chat-content-list").append(t), $("#scroll_id").click(function(e) {
         $(this).removeClass("hide-q"), $(".content").animate({
             scrollTop: $(".chat").height()

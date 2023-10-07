@@ -4694,3 +4694,7 @@ footer a {
 div#reviews {
     display: none !important;
 }
+
+span.doc-name {
+    margin-right: 10px;
+}
